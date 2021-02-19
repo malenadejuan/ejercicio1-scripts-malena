@@ -2,4 +2,8 @@ let nombre = "malena";
 
 let letraMayus = nombre.charAt(0).toUpperCase();
 
-console.log(letraMayus);
+let eme = nombre[0];
+
+let nuevoNombre = nombre.replace(eme, letraMayus);
+
+console.log(nuevoNombre);
